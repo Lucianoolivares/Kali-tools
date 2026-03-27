@@ -1,0 +1,33 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Variables de entorno / credenciales
+.env
+*.env
+secrets.txt
+config.ini
+
+# Outputs / reportes generados
+*.pdf
+*.txt
+!README.md
+!requirements.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
